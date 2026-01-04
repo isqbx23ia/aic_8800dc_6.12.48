@@ -5,6 +5,10 @@ Tested on Linux kernel 6.12.48 with Mx-Linux.
 ### Attention
 Before installing the driver, delete all aic8800-related folders under /lib/firmware. Using an incorrect firmware version may cause the system to freeze.
 
+```bash
+sudo rm -rf /lib/firmware/aic8800*
+```
+
 ### Installation Steps
 #### Copy udev rules:
 
