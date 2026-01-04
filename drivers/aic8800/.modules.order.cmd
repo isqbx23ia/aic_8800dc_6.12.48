@@ -1,0 +1,1 @@
+savedcmd_/home/demo/Downloads/aic8800dc-main/drivers/aic8800/modules.order := {   cat /home/demo/Downloads/aic8800dc-main/drivers/aic8800/aic_load_fw/modules.order;   cat /home/demo/Downloads/aic8800dc-main/drivers/aic8800/aic8800_fdrv/modules.order; :; } > /home/demo/Downloads/aic8800dc-main/drivers/aic8800/modules.order

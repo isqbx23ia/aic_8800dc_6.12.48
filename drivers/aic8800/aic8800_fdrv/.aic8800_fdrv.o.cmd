@@ -1,0 +1,3 @@
+savedcmd_/home/demo/Downloads/aic8800dc-main/drivers/aic8800/aic8800_fdrv/aic8800_fdrv.o := x86_64-linux-gnu-ld -m elf_x86_64 -z noexecstack --no-warn-rwx-segments   -r -o /home/demo/Downloads/aic8800dc-main/drivers/aic8800/aic8800_fdrv/aic8800_fdrv.o @/home/demo/Downloads/aic8800dc-main/drivers/aic8800/aic8800_fdrv/aic8800_fdrv.mod  ; ./tools/objtool/objtool --hacks=jump_label --hacks=noinstr --hacks=skylake --ibt --orc --retpoline --rethunk --sls --static-call --uaccess --prefix=16  --link  --module /home/demo/Downloads/aic8800dc-main/drivers/aic8800/aic8800_fdrv/aic8800_fdrv.o
+
+/home/demo/Downloads/aic8800dc-main/drivers/aic8800/aic8800_fdrv/aic8800_fdrv.o: $(wildcard ./tools/objtool/objtool)
