@@ -1,6 +1,6 @@
 # aic8800dc
 
-Tested on Linux kernel 6.12 with MxLinux.
+Tested on Linux kernel 6.12.48 with Mx-Linux.
 
 ### Attention
 Before installing the driver, delete all aic8800-related folders under /lib/firmware. Using an incorrect firmware version may cause the system to freeze.
