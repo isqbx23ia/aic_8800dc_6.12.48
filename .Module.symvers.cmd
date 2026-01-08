@@ -1,0 +1,1 @@
+cmd_/home/demo/Desktop/aic_8800dc_6.12.48-main/drivers/aic8800/Module.symvers := sed 's/ko$$/o/' /home/demo/Desktop/aic_8800dc_6.12.48-main/drivers/aic8800/modules.order | scripts/mod/modpost -m    -o /home/demo/Desktop/aic_8800dc_6.12.48-main/drivers/aic8800/Module.symvers -e -i Module.symvers   -T -

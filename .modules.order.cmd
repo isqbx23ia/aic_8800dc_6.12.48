@@ -1,0 +1,1 @@
+cmd_/home/demo/Desktop/aic_8800dc_6.12.48-main/drivers/aic8800/modules.order := {   cat /home/demo/Desktop/aic_8800dc_6.12.48-main/drivers/aic8800/aic_load_fw/modules.order;   cat /home/demo/Desktop/aic_8800dc_6.12.48-main/drivers/aic8800/aic8800_fdrv/modules.order; :; } | awk '!x[$$0]++' - > /home/demo/Desktop/aic_8800dc_6.12.48-main/drivers/aic8800/modules.order
